@@ -76,6 +76,14 @@
         opacity: 0.6;
     }
 }
+@media screen and (max-width:1200px) {
+    .edu {
+
+        .headingDecs {
+            width: 65%;
+        }
+    }
+}
 
 @media screen and (max-width: 500px) {
     .edu{
