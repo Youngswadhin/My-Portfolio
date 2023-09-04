@@ -45,6 +45,17 @@
         height: 35px;
     }
 }
+
+@media screen and (max-width:428px) {
+    .home{
+        .homeDecs{
+            font-size: 1.4rem;
+        }
+    }
+    .homeSocial{
+        zoom: 1.2;
+    }
+}
 @media screen and (max-width:700px) {
     .home{
         width: 100%;
