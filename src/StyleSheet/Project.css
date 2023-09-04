@@ -64,9 +64,7 @@
     .project{
         zoom: .8;
     }
-    .headingDecs{
-        width: 90%;
-    }
+
     .cardDiv{
         display: flex;
         flex-direction: column;
