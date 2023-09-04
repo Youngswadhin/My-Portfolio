@@ -130,7 +130,9 @@
       .skillDiv{
         margin-left: 2rem;
         .skillName{
-          margin-left: 5rem;
+          width: max-content;
+          height: max-content;
+          margin-left: 3rem;
         }
       }
   }}
