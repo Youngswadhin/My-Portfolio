@@ -32,9 +32,6 @@
 
   &:hover {
     border: 1px solid skyblue;
-  }
-
-  &:hover {
     .skillName {
       visibility: visible;
     }

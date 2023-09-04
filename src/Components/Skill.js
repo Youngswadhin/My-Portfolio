@@ -34,7 +34,7 @@ function Skill() {
       className="scrollspy-example"
       tabIndex="0"
     >
-      <div id="skillpage" className="skill ">
+      <div id="skillpage" className="skill container">
         <div className="heading">
           <h2 className="headingTitle flex">SKILLS</h2>
           <p className="headingDecs">
@@ -114,22 +114,7 @@ function Skill() {
           </div>
         </div>
         )}
-{/* 
-        <div className="alertment popup">
-          <div
-            className="alert popup-content alert-warning alert-dismissible fade show"
-            role="alert"
-          >
-            Hey......! Just hover and see the skills. Thank You.....
-            <button
-              onClick={() => setShowPopup(false)}
-              type="button"
-              className="btn-close"
-              data-bs-dismiss="alert"
-              aria-label="Close"
-            ></button>
-          </div>
-        </div> */}
+
 
       </div>
     </section>

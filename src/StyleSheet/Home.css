@@ -1,6 +1,6 @@
 .home{
     height: max-content;
-    /* background: red; */
+    background: red;
     color: white;
     margin-top: 15rem;
     margin-bottom: 5rem;
@@ -24,7 +24,6 @@
     .icon{
         height: 40px;
         border-radius: 50%;
-        /* background: black; */
         margin-left: 2rem;
        }
     .resume{
@@ -53,7 +52,7 @@
         }
     }
     .homeSocial{
-        zoom: 1.2;
+        zoom: 1.5;
     }
 }
 @media screen and (max-width:700px) {
