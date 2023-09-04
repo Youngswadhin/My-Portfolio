@@ -1,6 +1,5 @@
 .home{
     height: max-content;
-    background: red;
     color: white;
     margin-top: 15rem;
     margin-bottom: 5rem;
@@ -48,11 +47,11 @@
 @media screen and (max-width:428px) {
     .home{
         .homeDecs{
-            font-size: 1.4rem;
+            font-size: 2.4rem;
         }
     }
     .homeSocial{
-        zoom: 1.5;
+        zoom: 2.5;
     }
 }
 @media screen and (max-width:700px) {
