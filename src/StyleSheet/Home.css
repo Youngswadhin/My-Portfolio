@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (max-width:428px) {
+@media screen and (max-width:500px) {
     .home{
         .homeDecs{
             font-size: 2.4rem;
