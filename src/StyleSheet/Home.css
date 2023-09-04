@@ -58,10 +58,9 @@
 @media screen and (max-width:500px) {
     .home{
             text-align: center;
-        .homeDecs{
-            font-size: 1.6rem;
-        }
-        .sayHello{
+            zoom: .8;
+
+           .sayHello{
             zoom: 1.3;
             margin-top: 2rem;
             visibility: visible;

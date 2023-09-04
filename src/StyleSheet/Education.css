@@ -79,7 +79,7 @@
 
 @media screen and (max-width: 500px) {
     .edu{
-        zoom: .7;
+        zoom: .8;
     }
     .headingDecs{
         width: 90%;
@@ -89,7 +89,7 @@
     }
 
     .clgDiv {
-        width: 60%;
+        width: 70%;
         /* zoom: .7; */
     }
 }
