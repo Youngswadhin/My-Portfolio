@@ -37,7 +37,7 @@ const Home = () => {
                   <a href='https://instagram.com/young_swadhin?igshid=NGExMmI2YTkyZg==' ><img src={insta} alt='..' className='icon' /></a>
                   <a href='mailto:youngswadhin@gmail.com' ><img src={mail} alt='..' className='icon' /></a>
                 </div>
-                 <button onClick={handleWhatsAppClick} className='sayHello'>Say Hello👋</button>
+                 <button onClick={handleWhatsAppClick} className='sayHello'>Say Hello 👋</button>
         </div>
         </section>
   )

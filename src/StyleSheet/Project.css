@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width:769px) {
+    .project{
+        zoom: .7;
+    }
     .cardDiv{
         display: flex;
         flex-direction: column;
