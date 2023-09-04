@@ -1,0 +1,44 @@
+/* ScrollingLine.css */
+.scroll-line {
+    position: fixed;
+    left: 5rem;
+    /* Position on the left side of the website */
+    top: 0;
+    width: 2px;
+    height: 0;
+    transition: height 0.5s ease;
+    /* Add transitions for smooth movement */
+}
+
+.scroll-line::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    /* Adjust this value for the desired glowing effect width */
+    top: 0;
+    width: 2px;
+    /* Adjust this value for the desired glowing effect width */
+    height: 100%;
+    background: linear-gradient(to bottom, #069dc3, #9108d0);
+    box-shadow: 2px 2px 20px blue;
+    opacity: 0;
+    /* Initial opacity */
+    animation: glowing 1s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        opacity: 0.2;
+        /* Initial glow effect */
+    }
+
+    100% {
+        opacity: 1;
+        /* Stronger glow effect */
+    }
+}
+@media screen and (max-width:769px) {
+    .scroll-line{
+        left: 1em;
+    }
+}

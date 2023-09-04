@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: transparent !important;
+    .nav-item{
+        .nav-link{
+            color: white;
+            font-size: var(--nav-font);
+            font-weight: 500;
+            &:hover{
+                color: skyblue;
+            }
+        }
+    }
+    .github-btn{
+        padding: .4rem .9rem;
+        text-decoration: none;
+        color: skyblue;
+        font-size: var(--nav-btn-font);
+        font-weight: 500;
+        border: 2px solid skyblue;
+        border-radius: 3rem;
+        &:hover{
+            background: skyblue;
+            color: white;
+        }
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .navbar{
+        .nav{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.project {
+    height: max-content;
+    /* background: red; */
+    color: white;
+    margin: 3rem 0;
+}
+.headingTitle {
+    font-weight: 700;
+    filter: drop-shadow(0 0 20px black);
+    margin-top: 5rem;
+}
+
+.headingDecs {
+    filter: drop-shadow(0 0 20px black);
+    font-size: 1.3rem;
+    opacity: 0.7;
+    margin-bottom: 5rem;
+    margin: 2rem auto;
+    text-align: center;
+}.btnList{
+    width: max-content;
+    margin: auto;
+    margin-top: 3rem;
+    .btn-group{
+        .btn{
+            background: #2c27276e;
+            &:hover{
+                color: white;
+                    background: skyblue;
+            }
+            &.active{
+                color: white;
+                background: skyblue;
+            }
+        }
+    }
+}
+.cardDiv{
+    width: 70%;
+    margin:3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    .card{
+         background: #544b4b98;
+         color: white;
+         padding: 1.5rem;
+         justify-content: space-evenly;
+           border: 1px solid rgb(93, 85, 85);
+    }
+    
+}
+@media screen and (max-width:769px) {
+    .cardDiv{
+        display: flex;
+        flex-direction: column;
+        .card{
+           zoom: .7;
+           .card-img-top{
+            zoom: .7;
+           }
+        }
+
+    }
+    
+}

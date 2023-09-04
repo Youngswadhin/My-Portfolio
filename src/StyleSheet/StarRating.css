@@ -1,0 +1,11 @@
+/* Add your CSS styles here */
+.star {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ccc;
+    margin: 0.2rem;
+}
+
+.star.filled {
+    color: gold;
+}

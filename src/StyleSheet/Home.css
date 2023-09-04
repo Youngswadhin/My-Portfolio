@@ -1,0 +1,86 @@
+.home{
+    height: max-content;
+    /* background: red; */
+    color: white;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+
+    .homeTitle{
+        font-weight: 700;
+        font-size: 5rem;
+        filter: drop-shadow(0 0 20px black);
+    }
+    .homeSubTitle{
+        font-size: 2rem;
+        width: max-content;
+        font-weight: 100;
+    }
+    .homeDecs{
+        font-size: 1.3rem;
+        opacity: .7;
+    }
+}
+.homeSocial{
+    .icon{
+        height: 40px;
+        border-radius: 50%;
+        /* background: black; */
+        margin-left: 2rem;
+       }
+    .resume{
+        text-transform: uppercase;
+        font-weight: 500;
+        color: skyblue;
+        background: transparent;
+        border: 2px solid skyblue;
+        padding: .4rem 2.8rem;
+        border-radius: 15px;
+        &:hover{
+            color: white;
+            background: skyblue;
+        }
+    }
+    .git{
+        background: white;
+        height: 35px;
+    }
+}
+@media screen and (max-width:700px) {
+    .home{
+        width: 100%;
+        zoom: .9;
+        .homeTitle{
+            font-size: 3rem;
+            width: max-content;
+            margin: auto;
+        }
+        .homeSubTitle{
+            font-size: 1.7rem;
+                width: max-content;
+                margin:1rem auto;
+        }
+        .homeDecs{
+            width: 90%;
+            text-align: center;
+            margin: auto;
+        }
+    }
+    .homeSocial{
+        width: max-content;
+        margin:2rem auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .home {
+        zoom: .9;
+        height: 60vh;
+        margin-top: 30rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .home {
+        zoom: .7;
+        height: 60vh;
+        margin-top: 30rem;
+    }
+}

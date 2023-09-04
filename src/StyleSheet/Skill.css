@@ -1,0 +1,138 @@
+.skill {
+  height: max-content;
+  /* background: yellow; */
+  color: white;
+  margin-bottom: 3rem;
+}
+.headingTitle {
+  font-weight: 700;
+  filter: drop-shadow(0 0 20px black);
+}
+.headingDecs {
+  filter: drop-shadow(0 0 20px black);
+  font-size: 1.3rem;
+  opacity: 0.7;
+  margin-bottom: 5rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+.skillDiv {
+  display: flex;
+  height: 25rem;
+  justify-content: space-evenly;
+}
+.skillBox {
+  height: 10rem;
+  width: 10rem;
+  z-index: 1;
+  border-radius: 50%;
+  border-radius: 50%;
+  background: #2c27276e;
+  border: 1px solid rgb(93, 85, 85);
+
+  &:hover {
+    border: 1px solid skyblue;
+  }
+
+  &:hover {
+    .skillName {
+      visibility: visible;
+    }
+  }
+}
+.skillIcon {
+  height: 10rem;
+  width: 10rem; 
+  -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 white);
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 white);
+}
+.skillName {
+  position: absolute;
+  left: 8rem;
+  z-index: 2;
+  visibility: hidden;
+  height: max-content;
+  width: 80vw;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #2c27276e;
+  border-top: 10px solid skyblue;
+  border-right: 1px solid skyblue;
+  border-bottom: 1px solid skyblue;
+  border-left: 1px solid skyblue;
+  box-shadow: 0 0 20px black;
+  .skillTitle {
+    margin-left: 2rem;
+  }
+  .skillDecs {
+    opacity: 0.7;
+  }
+}
+.alertment{
+  position: relative;
+}
+.alertment .alert{
+  position: absolute;
+  top: 0;
+  right: 3rem;
+}
+
+@media screen and (max-width:700px) {
+  .skill{
+    zoom: .7;
+    height: max-content;
+    padding-bottom: 3rem;
+         }
+      .headingDecs{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+          }
+      .skillDiv{
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 1rem;
+        justify-content: start;
+        height: max-content;
+        .skillBox{
+          display: flex;
+          justify-content: space-evenly;
+          .skillName{
+            margin: .5rem;
+            margin-left: 10rem;
+            margin-right: 1rem;
+            width: 65%;
+            border-radius: 10px;
+          }
+        }
+        
+      }
+}
+@media screen and (max-width:600px) {
+  .skill{
+    zoom: .7;
+    .headingTitle{
+      font-size: 2.5rem;
+    }
+    .headingDecs{
+      font-size: 1.8rem;
+    }
+    .skillDiv{
+      margin-left: 2rem;
+      .skillName{
+        margin-left: 7rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:500px) {
+  .skill {
+    zoom: .6;
+    .headingTitle{
+      font-size: 2.6rem;
+    }
+      .skillDiv{
+        margin-left: 2rem;
+      }
+  }}

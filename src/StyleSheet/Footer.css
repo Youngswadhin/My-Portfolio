@@ -1,0 +1,53 @@
+.footer{
+    height: max-content;
+    background: red;
+    background: #2c27276e;
+    border-top: 1px solid rgb(93, 85, 85);
+    padding-top: 2rem;
+
+    .footer-head{
+    background: #2c2727dc;
+        border: 1px solid rgb(93, 85, 85);
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 1rem;
+        -webkit-filter: drop-shadow(1px 1px 0 rgb(93, 85, 85)) drop-shadow(-1px -1px 0 rgb(93, 85, 85));
+            filter: drop-shadow(1px 1px 0 rgb(93, 85, 85)) drop-shadow(-1px -1px 0 rgb(93, 85, 85));
+
+        .collaborateBtn{
+            color: white;
+            background: transparent;
+            padding: .5rem 1rem;
+            border-radius: 3rem;
+            border: 2px solid skyblue;
+
+            .icon{
+                margin-right: 1rem;
+            
+                
+            }
+        }
+    }
+    .footer-head h2{
+        margin: auto;
+    }
+    .footer-head p{
+        max-width: 50%;
+        text-align: center;
+        margin:1rem auto;
+        line-height: 1.2rem;
+    }
+    
+}
+.footer h2{
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    width: max-content;
+}
+.footer p{
+    margin: auto;
+    width: max-content;
+    padding-bottom: .6rem;
+}
