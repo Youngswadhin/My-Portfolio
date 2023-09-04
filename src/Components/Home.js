@@ -7,7 +7,22 @@ import linkedin from '../Assets/linkedin.svg'
 import insta from '../Assets/instagram.png'
 import mail from '../Assets/gmail.svg'
 
-function Home() {
+const Home = () => {
+
+    const handleWhatsAppClick = () => {
+    // Replace '1234567890' with the phone number you want to send a message to.
+    const phoneNumber = '8117002071';
+    
+    // Replace 'Hello%20World' with the message you want to send (URL-encoded).
+    const message = 'Hello...Swadhin';
+    
+    // Generate the WhatsApp link
+    const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappLink);
+  };
+
   return (
       <section data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabindex="0">
 
@@ -22,7 +37,7 @@ function Home() {
                   <a href='https://instagram.com/young_swadhin?igshid=NGExMmI2YTkyZg==' ><img src={insta} alt='..' className='icon' /></a>
                   <a href='mailto:youngswadhin@gmail.com' ><img src={mail} alt='..' className='icon' /></a>
                 </div>
-                 <button className='sayHello'>Say Hello👋</button>
+                 <button onClick={handleWhatsAppClick} className='sayHello'>Say Hello👋</button>
         </div>
         </section>
   )
