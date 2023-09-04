@@ -25,7 +25,7 @@ const Projects = () => {
       className="scrollspy-example"
       tabIndex="0"
     >
-      <div id="projpage" className="project container">
+      <div id="projpage" className="project">
         <div className="heading">
           <h2 className="headingTitle flex">PROJECTS</h2>
           <p className="headingDecs">
