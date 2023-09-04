@@ -126,10 +126,8 @@
 @media screen and (max-width:500px) {
   .skill {
     zoom: .8;
-    /* .headingTitle{
-      font-size: 2.6rem;
-    }
+  
       .skillDiv{
         margin-left: 2rem;
-      } */
+      }
   }}
