@@ -64,6 +64,10 @@
         .homeDecs{
             font-size: 1.6rem;
         }
+        .sayHello{
+            zoom: 1.3;
+            margin-top: 2rem;
+        }
     }
     .homeSocial{
         zoom: 1.3;
