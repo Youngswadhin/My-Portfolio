@@ -12,7 +12,7 @@ function Education() {
          {/* heading */}
       <div className="heading">
         <h2 className="headingTitle flex">EDUCATION  🎓</h2>
-        <p className='headingDecs'>
+        <p className='headingDecs flex'>
           My education has been a journey of self-discovery and growth. My
           educational detials are as follows.
         </p>

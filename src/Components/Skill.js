@@ -34,7 +34,7 @@ function Skill() {
       className="scrollspy-example"
       tabIndex="0"
     >
-      <div id="skillpage" className="skill container">
+      <div id="skillpage" className="skill ">
         <div className="heading">
           <h2 className="headingTitle flex">SKILLS</h2>
           <p className="headingDecs">
