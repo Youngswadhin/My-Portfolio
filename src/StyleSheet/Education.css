@@ -92,10 +92,11 @@
     }
     .headingDecs{
         margin: 0;
+        background: red;
     }
-    .education {
+    /* .education {
         height: max-content;
-    }
+    } */
 
     .clgDiv {
         width: 70%;
