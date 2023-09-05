@@ -90,6 +90,9 @@
     .edu{
         zoom: .8;
     }
+    .headingDecs{
+        margin: 0;
+    }
     .education {
         height: max-content;
     }
