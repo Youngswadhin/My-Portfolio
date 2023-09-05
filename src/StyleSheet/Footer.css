@@ -6,6 +6,7 @@
     padding-top: 2rem;
 
     .footer-head{
+        display: flex;
     background: #2c2727dc;
         border: 1px solid rgb(93, 85, 85);
         width: 75%;
@@ -18,6 +19,7 @@
 
         .collaborateBtn{
             color: white;
+            width: max-content;
             background: transparent;
             padding: .5rem 1rem;
             border-radius: 3rem;
@@ -50,4 +52,16 @@
     margin: auto;
     width: max-content;
     padding-bottom: .6rem;
+}
+@media screen and (max-width:500px) {
+    .footer-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .collaborateBtn{
+            zoom: .7;
+        }
+    }
+
 }

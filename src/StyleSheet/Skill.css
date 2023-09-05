@@ -123,17 +123,23 @@
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .skill {
-    zoom: .8;
-  
-      .skillDiv{
-        margin-left: 2rem;
-        .skillName{
-          margin-left: 5rem;
-        }
+    zoom: 0.8;
+
+    .skillDiv {
+      margin-left: 2rem;
+
+      .skillName {
+        margin-left: 5rem;
       }
+    }
   }
-.headingDecs{
-  margin: 0;
-}}
+
+  .headingDecs {
+    margin: 0 auto;
+    /* Center-align the headingDecs */
+    width: 100%;
+    /* Make the width full */
+  }
+}
