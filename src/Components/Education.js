@@ -8,11 +8,11 @@ import bdk from '../Assets/bdk.png'
 function Education() {
   return (
     <section data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabindex="0">
-    <div id='edupage' className='edu'>
+    <div id='edupage' className='edu container'>
          {/* heading */}
       <div className="heading">
         <h2 className="headingTitle flex">EDUCATION  🎓</h2>
-        <p className='headingDecs flex'>
+        <p className='headingDecs '>
           My education has been a journey of self-discovery and growth. My
           educational detials are as follows.
         </p>
