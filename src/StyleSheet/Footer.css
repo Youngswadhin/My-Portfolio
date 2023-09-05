@@ -66,5 +66,8 @@
             zoom: .7;
         }
     }
+    .footer-head h2{
+        max-width: 70%;
+    }
 
 }
