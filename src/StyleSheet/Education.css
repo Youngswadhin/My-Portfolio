@@ -7,15 +7,7 @@
     height: max-content;
     margin-bottom: 7rem;
 }
-.headingDecs {
-    filter: drop-shadow(0 0 20px black);
-    font-size: 1.3rem;
-    opacity: 0.7;
-    margin-bottom: 5rem;
-    margin: 2rem auto;
-    text-align: center;
-    width: 90%;
-}
+
 
 .eduBox {
     gap: 1rem;

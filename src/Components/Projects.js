@@ -26,10 +26,11 @@ const Projects = () => {
       tabIndex="0"
     >
       <div id="projpage" className="project container">
-        <div className="heading">
-          <h2 className="headingTitle flex">PROJECTS</h2>
+         <div className="heading">
+          <h2 className="headingTitle flex">SKILLS</h2>
           <p className="headingDecs">
             I have worked on a wide range of projects. From web apps to Android apps and UX/UI projects. Here are some of my projects.
+    
           </p>
         </div>
 
